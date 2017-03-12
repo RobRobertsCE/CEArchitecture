@@ -2,6 +2,7 @@
 
 namespace Hex.Business
 {
+    // Reference: http://alistair.cockburn.us/Hexagonal+architecture
     public class Discounter
     {
         private readonly IRateRepository _rateRepository;
